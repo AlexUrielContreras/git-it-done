@@ -28,7 +28,6 @@ var getRepoIssures = function (repo) {
             document.location.replace("./index.html")
         };
     });
-    displayIssue()
 }
 
     var displayIssue = function (issues) {
@@ -71,5 +70,6 @@ var displayWarning = function(repo) {
 
     limitWarningEl.appendChild(linkEl);
 };
+
 
 getRepoName();
